@@ -44,15 +44,15 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
-            <Switch>
+            {/* <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/success" component={Success} />
               <Route exact path="/orderHistory" component={OrderHistory} />
               <Route exact path="/products/:id" component={Detail} />
-              <Route component={NoMatch} />
-            </Switch>
+               <Route component={NoMatch} />
+             </Switch> */}
           </StoreProvider>
         </div>
       </Router>
